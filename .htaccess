@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^home$ index.php
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?v=$1 [QSA]
+# HTID:20683101: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:20683101:
